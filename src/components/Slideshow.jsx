@@ -23,7 +23,7 @@ function Slideshow() {
       {images.map((image, index) => (
         <img
           key={index}
-          src={`/src/assets/${image}`}
+          src={`/img/${image}`}
           alt={`slide-${index}`}
           className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
             index === currentIndex ? 'opacity-100' : 'opacity-0'
