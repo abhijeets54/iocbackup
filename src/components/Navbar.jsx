@@ -20,11 +20,7 @@ function Navbar() {
 
   return (
     <>
-      <div className="bg-blue-100 py-2 text-center shadow-black">
-        <h1 className="text-black text-xl font-semibold">
-          ਬਹੁਤ ਜਨਮ ਬਿਛੁਰੇ ਥੇ ਮਾਧਉ, ਇਹੁ ਜਨਮੁ ਤੁਮਾਰੇ ਲੇਖੇ ॥
-        </h1>
-      </div>
+      
       <nav className="bg-white p-4 shadow-3xl">
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex items-center space-x-4">
