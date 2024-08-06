@@ -24,7 +24,7 @@ function Navbar() {
       <nav className="bg-white p-4 shadow-3xl">
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex items-center space-x-4">
-            <img className="w-15 h-12" src="/img/logo.jpg" alt="Logo" />
+            <img className="w-15 h-12" src="/logo.jpg" alt="Logo" />
             <div className="text-black font-semibold text-3xl font-serif">Initiators of Change</div>
           </div>
           <div className="flex-1 flex justify-center">
