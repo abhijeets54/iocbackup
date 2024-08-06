@@ -1,3 +1,6 @@
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+
 const images = [
   '35.jpg',
   '20.jpg',
@@ -20,7 +23,7 @@ function Slideshow() {
       {images.map((image, index) => (
         <img
           key={index}
-          src={`${import.meta.env.BASE_URL}img/${image}`} // Updated path
+          src={`/img/${image}`}
           alt={`slide-${index}`}
           className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
             index === currentIndex ? 'opacity-100' : 'opacity-0'
